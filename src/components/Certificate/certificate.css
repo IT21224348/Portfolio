@@ -1,0 +1,42 @@
+.certificate-gallery1{
+    margin-left: 7%;
+    margin-top: -9%;
+}
+
+.certificate-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Aligns items to the start of the container */
+    gap: 20px; /* Space between each certificate item */
+    padding: 20px;
+    margin-top: 20px; /* Adjusted top margin as needed */
+    margin-left: auto; /* Centers the gallery */
+    margin-right: auto; /* Centers the gallery */
+    max-width: 960px; /* Maximum width of the gallery */
+  }
+  
+  .certificate-item {
+    border: 1px solid #ddd; /* Border for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a card-like effect */
+    border-radius: 8px; /* Rounded corners for the card */
+    overflow: hidden; /* Ensures that content respects border-radius */
+    text-align: center;
+    background-color: #fff; /* Card background color */
+    width: calc(33.333% - 20px); /* Adjust width for 3 items per row minus the gap */
+    margin-bottom: 20px; /* Space below each item */
+  }
+  
+  .certificate-item img {
+    width: 100%; /* Image takes full width of the container */
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Cover ensures the image covers the area, may crop */
+  }
+  
+  .certificate-item p {
+    padding: 10px;
+    margin: 0; /* Remove default margin from paragraphs */
+    font-weight: bold; /* Make the title bold */
+    color: #333; /* Title color */
+    background-color: #f8f8f8; /* Slightly different background for the title */
+  }
+  
