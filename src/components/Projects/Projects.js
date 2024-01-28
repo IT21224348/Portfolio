@@ -3,11 +3,7 @@ import './projects.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { faAppStore, faGithub, faWebflow } from '@fortawesome/free-brands-svg-icons';
-import gogoApp from '../Images/logoimg.png'
-import Encore from '../Images/Encore.png'
-import Sathsara from '../Images/sathsara.png'
-import eventi from '../Images/eventi.png'
-import mybizapp from '../Images/mybizapp.png'
+
 
 export default function Projects() {
   return (
